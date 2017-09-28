@@ -1,0 +1,44 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskannada.css);
+
+.main {
+  width:100%;
+  display:grid;
+  grid-template-columns: 2fr 3fr;
+  height: calc(100vh - 10px);
+}
+
+.left-container {
+  background-color:#000000;
+  display:grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
+
+}
+
+.right-container{
+  background-image: url('El-Pedal-Madrid-craft-beer-bar.jpg');
+  background-size: cover;
+}
+
+.img-logo {
+  display: block;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 5%;
+}
+
+
+.logo-text {
+  color:#ffffff;
+  font-family: 'Noto Sans Kannada', sans-serif;
+  font-size: 18px;
+  max-width:90%;
+  margin:0 auto;
+}
+
+button {
+  width: 90%;
+  margin:0 auto;
+  height:10%;
+  border-radius: 0.5em;
+}
